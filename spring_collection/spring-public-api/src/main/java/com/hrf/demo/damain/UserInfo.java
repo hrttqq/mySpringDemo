@@ -21,4 +21,12 @@ public class UserInfo implements Serializable {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "UserInfo{" +
+                "userName='" + userName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

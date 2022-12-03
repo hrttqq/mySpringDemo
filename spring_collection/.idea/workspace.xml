@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59d68bd5-623d-4c30-a526-0d8cf4f2c80f" name="Default Changelist" comment="" />
+    <list default="true" id="59d68bd5-623d-4c30-a526-0d8cf4f2c80f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/filter/MySpringDemoFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/interceptor/MySpringDemoInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/test/java/com/hrf/demo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/test/java/com/hrf/demo/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/spring-mvc-application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/spring-mvc-application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/test-classes/com/hrf/demo/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/target/test-classes/com/hrf/demo/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-public-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/target/classes/com/hrf/demo/damain/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-public-api/target/classes/com/hrf/demo/damain/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-service-dubbo/target/" />
@@ -14,12 +32,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/SpirngTomcatApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="-30">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,46 +60,86 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/interceptor/MySpringDemoInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/filter/MySpringDemoFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-service-dubbo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring/spring-context-dubbo.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="416">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/test/java/com/hrf/demo/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,14 +155,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-public-api/pom.xml" />
         <option value="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java" />
         <option value="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/service/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring/spring-context-dubbo.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring-application.xml" />
         <option value="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/web/WEB-INF/web.xml" />
@@ -112,13 +171,19 @@
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/SpirngTomcatApplication.java" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/config/InitConfig.java" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/util/TomcatUtil.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring/spring-context-dubbo.xml" />
-        <option value="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java" />
+        <option value="$PROJECT_DIR$/spring-public-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-service-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/interceptor/MyspringDemoInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/test/java/com/hrf/demo/AppTest.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java" />
         <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/interceptor/MySpringDemoInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/filter/MySpringDemoFilter.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -162,20 +227,21 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,15 +281,6 @@
               <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,29 +311,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +333,61 @@
             <path>
               <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-mvc-tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
               <item name="spring-service-dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-service-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-service-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-service-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-service-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_collection" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +402,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1669627875025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1670037949386" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -365,6 +454,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SpirngTomcatApplication" />
+      <item itemvalue="Application.SpringDubboApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpirngTomcatApplication" />
@@ -387,18 +480,24 @@
       <workItem from="1668850124468" duration="20241000" />
       <workItem from="1669599149468" duration="819000" />
       <workItem from="1669601129886" duration="425000" />
-      <workItem from="1669602284000" duration="8686000" />
+      <workItem from="1669602284000" duration="11052000" />
+      <workItem from="1670032211814" duration="4215000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2022.12.03 at 10h 31m 22s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37860000" />
+    <option name="totallyTimeSpent" value="44441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,8 +506,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47020584" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5167931" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46963122" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4295011" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,7 +515,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.8234019" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,10 +552,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-public-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -654,25 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="398" selection-start-line="398" selection-end-line="398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -700,33 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -734,62 +787,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/SpirngTomcatApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-service-dubbo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="1740">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/spring-public-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="660">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/BasicConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-service-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring/spring-context-dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="150">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml">
+    <entry file="file://$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/damain/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="573">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/test/java/com/hrf/demo/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/SpirngTomcatApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring-mvc-application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="90">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/interceptor/MySpringDemoInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java/com/hrf/demo/springmvc/filter/MySpringDemoFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

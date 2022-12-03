@@ -9,4 +9,15 @@
 
     <mvc:annotation-driven/>
     <import resource="classpath:spring/spring-context-dubbo.xml"/>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 拦截器拦截路径 -->
+            <mvc:mapping path="/**"/>
+            <!-- 不拦截的路径 -->
+            <mvc:exclude-mapping path="/SpringMvcTest/demoTest"/>
+            <!-- 自定义拦截器地址 -->
+            <bean class="com.hrf.demo.springmvc.interceptor.MySpringDemoInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
