@@ -11,6 +11,7 @@
         <module>spring-service-dubbo</module>
         <module>spring-public-api</module>
         <module>spring-mvc-tomcat</module>
+        <module>spring-jdbc-data</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,6 +21,7 @@
         <spring-version>5.3.18</spring-version>
         <zookeeper-version>3.4.6</zookeeper-version>
         <zk-client-version>0.1</zk-client-version>
+        <log4j-version>2.17.0</log4j-version>
     </properties>
 
     <dependencyManagement>
@@ -38,6 +40,21 @@
                 <groupId>com.github.sgroschupf</groupId>
                 <artifactId>zkclient</artifactId>
                 <version>${zk-client-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>${log4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${log4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j-impl</artifactId>
+                <version>${log4j-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

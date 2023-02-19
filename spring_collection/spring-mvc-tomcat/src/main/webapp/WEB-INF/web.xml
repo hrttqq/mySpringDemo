@@ -21,6 +21,7 @@
     </servlet-mapping>
 
 
+    <!-- 自定义过滤器配置拦截 -->
     <filter>
         <filter-name>mySpringDemoFilter</filter-name>
         <filter-class>com.hrf.demo.springmvc.filter.MySpringDemoFilter</filter-class>

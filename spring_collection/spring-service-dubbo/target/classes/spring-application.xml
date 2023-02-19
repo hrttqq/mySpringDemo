@@ -6,5 +6,5 @@
 
     <context:component-scan base-package="com.hrf.demo.*"/>
     <!--<bean id="demoService" class="com.hrf.demo.service.DemoServiceImpl"/>-->
-    <import resource="classpath:spring/spring-context-dubbo.xml"/>
+    <import resource="spring/spring-context-dubbo.xml"/>
 </beans>

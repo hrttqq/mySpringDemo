@@ -6,7 +6,6 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
@@ -43,18 +42,23 @@ public class MySpringDemoInterceptor extends HandlerInterceptorAdapter {
 
     private void error403(HttpServletResponse resp) {
         resp.setStatus(403);
+        //设置返回体支持UTF-8
         resp.setCharacterEncoding("utf-8");
         resp.setHeader("content-type","text/html;charset=UTF-8");
         PrintWriter out = null;
         try {
+            //响应体获取写入操作
             out = resp.getWriter();
+            //设置响应体长度限制
             resp.setContentLength("{\"code\":403,\"errmsg:\":\"token is null or packageName is null!}".length());
+            //设置返回体
             out.write("{\"code\":403,\"errmsg\":\"token is null or packageName is null!\"}");
             out.flush();
         } catch (Exception e) {
             System.out.println("error");
         } finally {
             if (out != null){
+                //关闭写入流
                 out.close();
             }
         }

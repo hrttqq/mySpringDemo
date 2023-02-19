@@ -5,9 +5,9 @@ import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 /**
- * Hello world!
- *
+ * SpringMVC启动类
  */
 public class SpirngTomcatApplication {
     private final static Logger log = LoggerFactory.getLogger(SpirngTomcatApplication.class);

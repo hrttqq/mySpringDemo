@@ -7,9 +7,10 @@
     <!-- 应用信息配置 name:当前应用名称 -->
     <dubbo:application name="TestDubboProvider"/>
     <!-- 注册中心配置 address注册中心地址 格式：zookeeper://id:端口号?backup=备库ip:端口号 -->
-    <dubbo:registry address="zookeeper://192.168.137.128:2181"/>
+    <dubbo:registry address="zookeeper://192.168.181.131:2181"/>
     <!-- dubbo协议地址 name协议名称 port服务端口号-->
     <dubbo:protocol name="dubbo" port="5321"/>
     <!-- 服务提供者暴露服务配置 interface服务接口class ref引用的对象 -->
     <dubbo:service interface="com.hrf.demo.service.DemoService" ref="demoService"/>
+    <dubbo:reference interface="com.hrf.demo.dao.UserInfoDao" id="userInfoDao" check="false" timeout="5000"/>
 </beans>
