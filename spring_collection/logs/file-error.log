@@ -1,0 +1,4 @@
+2023-02-22 00:20:28,576 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:21:48,198 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:25:58,228 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:39:53,389 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated

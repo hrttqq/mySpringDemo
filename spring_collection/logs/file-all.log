@@ -1,0 +1,52 @@
+2023-02-22 00:20:28,073 [main][] INFO  com.hrf.demo.SpringJdbcApplication #13 - ......................................Spring start......................................
+2023-02-22 00:20:28,576 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:20:50,342 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:21:12,531 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:21:47,582 [main][] INFO  com.hrf.demo.SpringJdbcApplication #13 - ......................................Spring start......................................
+2023-02-22 00:21:48,198 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:22:10,002 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:22:32,162 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:22:54,288 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:23:16,404 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:23:38,528 [main-SendThread(192.168.181.131:2181)][] WARN  org.apache.zookeeper.ClientCnxn #1102 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361) ~[zookeeper-3.4.6.jar:3.4.6-1569965]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081) [zookeeper-3.4.6.jar:3.4.6-1569965]
+2023-02-22 00:25:57,632 [main][] INFO  com.hrf.demo.SpringJdbcApplication #13 - ......................................Spring start......................................
+2023-02-22 00:25:58,228 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:25:58,994 [main][] INFO  com.hrf.demo.SpringJdbcApplication #17 - ......................................Spring end......................................
+2023-02-22 00:39:52,823 [main][] INFO  com.hrf.demo.SpringJdbcApplication #13 - ......................................Spring start......................................
+2023-02-22 00:39:53,389 [main][] ERROR com.alibaba.druid.pool.DruidAbstractDataSource #1090 - maxIdle is deprecated
+2023-02-22 00:39:54,241 [main][] INFO  com.hrf.demo.SpringJdbcApplication #17 - ......................................Spring end......................................

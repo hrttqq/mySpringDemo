@@ -2,6 +2,8 @@ package com.hrf.demo.jdbc.dao;
 
 import com.hrf.demo.damain.UserInfo;
 import com.hrf.demo.dao.UserInfoDao;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -15,6 +17,7 @@ import java.util.List;
 
 @Repository("userInfoDao")
 public class UserInfoDaoImpl implements UserInfoDao {
+    private static final Logger log = LoggerFactory.getLogger(UserInfoDaoImpl.class);
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
@@ -29,8 +32,8 @@ public class UserInfoDaoImpl implements UserInfoDao {
             parms.add(userInfo.getAge());
             parms.add(userInfo.getPhone());
             jdbcTemplate.update(sb.toString(),parms.toArray());
-        } catch (DataAccessException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            log.error("UserInfoDaoImpl insert error!",e);
         }
     }
 

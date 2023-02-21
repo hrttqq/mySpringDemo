@@ -9,13 +9,15 @@ import java.io.IOException;
 public class SpringJdbcApplication {
     private static Logger log = LoggerFactory.getLogger(SpringJdbcApplication.class);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         log.info("......................................Spring start......................................");
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/spring-application.xml");
         context.start();
         context.registerShutdownHook();
-        System.in.read();
         log.info("......................................Spring end......................................");
+        synchronized (SpringJdbcApplication.class) {
+            SpringJdbcApplication.class.wait();
+        }
 
     }
 

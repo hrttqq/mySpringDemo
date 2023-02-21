@@ -12,12 +12,15 @@ import java.io.IOException;
  */
 public class SpringDubboApplication {
     private static Logger logger = LoggerFactory.getLogger(SpringDubboApplication.class);
-    public static void main( String[] args ) throws IOException {
+
+    public static void main(String[] args) throws Exception {
         logger.info("......................................Spring start......................................");
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/spring-application.xml");
         context.start();
         context.registerShutdownHook();
-        System.in.read();
         logger.info("......................................Spring end......................................");
+        synchronized (SpringDubboApplication.class) {
+            SpringDubboApplication.class.wait();
+        }
     }
 }
