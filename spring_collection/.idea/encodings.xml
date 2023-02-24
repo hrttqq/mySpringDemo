@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/spring-jdbc-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-jdbc-data/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-jdbc-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mongo-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mongo-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-tomcat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-tomcat/src/main/resources" charset="UTF-8" />

@@ -29,6 +29,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- 接入jdbc相关配置 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
@@ -37,7 +38,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.46</version>
+            <version>8.0.28</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -45,18 +46,7 @@
             <version>1.2.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>2.5.3</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>spring</artifactId>
-                    <groupId>org.springframework</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
+        <!-- 接入log4j2日志框架相关依赖 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>

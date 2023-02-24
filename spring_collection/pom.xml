@@ -12,6 +12,7 @@
         <module>spring-public-api</module>
         <module>spring-mvc-tomcat</module>
         <module>spring-jdbc-data</module>
+        <module>spring-mongo-data</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,7 +1,7 @@
 package com.hrf.demo.service;
 
 import com.hrf.demo.damain.UserInfo;
-import com.hrf.demo.dao.UserInfoDao;
+import com.hrf.demo.jdbc.dao.UserInfoDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +30,10 @@ public class DemoServiceImpl implements DemoService {
         userInfo.setPhone(13717032208L);
         userInfo.setUserId("20230101");
         userInfoDao.insertUserInfo(userInfo);
+    }
+
+    @Override
+    public UserInfo queryUserInfo(String userId) {
+        return null;
     }
 }

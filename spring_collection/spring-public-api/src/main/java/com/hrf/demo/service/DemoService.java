@@ -6,4 +6,6 @@ public interface DemoService {
     UserInfo getUserInfo();
 
     void insertUserInfo();
+
+    UserInfo queryUserInfo(String userId);
 }

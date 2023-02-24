@@ -5,26 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d68bd5-623d-4c30-a526-0d8cf4f2c80f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/file-all.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/file-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/file-all.2023-02-22.1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/file-all.2023-02-23.1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/file-error.2023-02-22.1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/file-error.2023-02-23.1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mongo-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mongo-data/src/main/java/com/hrf/demo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mongo-data/src/test/java/com/hrf/demo/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/file-all.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/file-all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/file-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/file-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/spring-jdbc-data.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring/spring-context-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring/spring-context-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring-application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring/spring-context-dubbo.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring/spring-jdbc-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/conf/spring/spring-jdbc-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/SpringJdbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/SpringJdbcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/jdbc/dao/UserInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/jdbc/dao/UserInfoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/com/hrf/demo/SpringJdbcApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/target/classes/com/hrf/demo/SpringJdbcApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/spring/spring-context-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/target/classes/spring/spring-context-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/spring-mvc-tomcat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring/spring-context-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-tomcat/src/main/conf/spring/spring-context-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/spring-service-dubbo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/SpringDubboApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/jdbc/dao/UserInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/jdbc/dao/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/META-INF/spring-jdbc-data.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/com/hrf/demo/SpringJdbcApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/com/hrf/demo/jdbc/dao/UserInfoDaoImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/com/hrf/demo/jdbc/dao/UserInfoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/spring-application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/spring/spring-context-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/classes/spring/spring-jdbc-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-data/target/test-classes/com/hrf/demo/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/SpirngTomcatApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/Controller/SpringMvcDemoRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/config/ClassConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/config/InitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/filter/MySpringDemoFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/interceptor/MySpringDemoInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/com/hrf/demo/springmvc/util/TomcatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/spring-mvc-application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/classes/spring/spring-context-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-tomcat/target/test-classes/com/hrf/demo/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/dao/UserInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-public-api/src/main/java/com/hrf/demo/service/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/target/classes/com/hrf/demo/damain/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/target/classes/com/hrf/demo/dao/UserInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-public-api/target/classes/com/hrf/demo/service/DemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring-application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring-application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring/spring-context-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/src/main/conf/spring/spring-context-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/service/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-service-dubbo/src/main/java/com/hrf/demo/service/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/classes/com/hrf/demo/SpringDubboApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/classes/com/hrf/demo/service/DemoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/classes/spring-application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/classes/spring/spring-context-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-service-dubbo/target/test-classes/com/hrf/demo/SpringDubboApplicationTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +74,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/jdk/jdk11/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.4/druid-1.2.4-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.4/druid-1.2.4-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,6 +126,11 @@
         <option name="localRepository" value="D:\my_repository" />
         <option name="userSettingsFile" value="D:\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -332,14 +374,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "F:/myProject/spring_collection/spring-mvc-tomcat/src/main/conf",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "spring.configuration.checksum": "66e2375f1b28c8148fcb3f6ddf3f1ffe",
     "vue.rearranger.settings.migration": "true"
   }
@@ -354,7 +399,7 @@
       <recent name="F:\myProject\spring_collection\spring-mvc-tomcat\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringJdbcApplication">
+  <component name="RunManager" selected="Application.SpringDubboApplication">
     <configuration name="SpirngTomcatApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hrf.demo.SpirngTomcatApplication" />
       <module name="spring-mvc-tomcat" />
@@ -381,27 +426,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringJdbcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hrf.demo.SpringJdbcApplication" />
-      <module name="spring-jdbc-data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hrf.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.SpirngTomcatApplication" />
       <item itemvalue="Application.SpringDubboApplication" />
-      <item itemvalue="Application.SpringJdbcApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringJdbcApplication" />
         <item itemvalue="Application.SpringDubboApplication" />
         <item itemvalue="Application.SpirngTomcatApplication" />
       </list>
@@ -442,6 +472,7 @@
       <workItem from="1676703560327" duration="335000" />
       <workItem from="1676710860107" duration="15610000" />
       <workItem from="1676993888180" duration="3729000" />
+      <workItem from="1677076790152" duration="20069000" />
     </task>
     <servers />
   </component>
@@ -517,11 +548,6 @@
           <line>419</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-jdbc-data/src/main/java/com/hrf/demo/jdbc/dao/UserInfoDaoImpl.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -530,6 +556,15 @@
         <PinnedItemInfo parentTag="org.apache.logging.slf4j.Log4jLogger" memberName="logger" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="e" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
