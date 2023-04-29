@@ -4,10 +4,21 @@ import java.io.Serializable;
 
 public class UserInfo implements Serializable {
     public int id;
-    public String userName;
+    public String userName = "吕小布";
     public String userId;
     public int age;
     public long phone;
+
+    public UserInfo() {
+    }
+
+    public UserInfo(int id, String userName, String userId, int age, long phone) {
+        this.id = id;
+        this.userName = userName;
+        this.userId = userId;
+        this.age = age;
+        this.phone = phone;
+    }
 
     public int getId() {
         return id;

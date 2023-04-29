@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-tomcat/spring-mvc-tomcat.iml" filepath="$PROJECT_DIR$/spring-mvc-tomcat/spring-mvc-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-service-dubbo/spring-service-dubbo.iml" filepath="$PROJECT_DIR$/spring-service-dubbo/spring-service-dubbo.iml" />
+    </modules>
+  </component>
+</project>
