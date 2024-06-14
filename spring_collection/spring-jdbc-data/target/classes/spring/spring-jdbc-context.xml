@@ -5,9 +5,9 @@
 
     <!-- 注册一个dataSource bean -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="url" value="jdbc:mysql://192.168.181.134:33066/user_db"/>
-        <property name="username" value="root"/>
-        <property name="password" value="root"/>
+        <property name="url" value="jdbc:mysql://139.159.251.133:33066/user_db"/>
+        <property name="username" value="springjdbc"/>
+        <property name="password" value="springjdbc"/>
         <property name="initialSize" value="5"/>
         <property name="maxActive" value="10"/>
         <property name="minIdle" value="8"/>

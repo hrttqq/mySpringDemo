@@ -1,5 +1,6 @@
 package com.hrf.demo.service;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.hrf.demo.damain.UserInfo;
 import com.hrf.demo.jdbc.dao.UserInfoDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Service;
 //@Service("userInfoService")
 public class UserInfoServiceImpl implements UserInfoService {
 
-    @Autowired
+    @Reference
     public UserInfoDao userInfoDao;
 
     /**
@@ -21,8 +22,10 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Override
     public UserInfo getUserInfo() {
         UserInfo userInfo = new UserInfo();
+        userInfo.setId(1);
         userInfo.setUserName("吕小布同学");
         userInfo.setAge(10);
+        userInfoDao.insertUserInfo(userInfo);
         return userInfo;
     }
 

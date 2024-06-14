@@ -26,8 +26,9 @@ public class UserInfoDao {
     public void insertUserInfo(UserInfo userInfo) {
         try {
             StringBuilder sb = new StringBuilder();
-            sb.append("insert into user_info (user_name,user_id,age,phone) values(?,?,?,?)");
+            sb.append("insert into user_info (id,user_name,user_id,age,phone) values(?,?,?,?,?)");
             List<Object> parms = new LinkedList<>();
+            parms.add(userInfo.getId());
             parms.add(userInfo.getUserName());
             parms.add(userInfo.getUserId());
             parms.add(userInfo.getAge());
