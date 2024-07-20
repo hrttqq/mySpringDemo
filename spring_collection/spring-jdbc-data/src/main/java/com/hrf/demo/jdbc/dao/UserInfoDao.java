@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,6 +24,8 @@ public class UserInfoDao {
      * 写入数据库操作
      * @param userInfo
      */
+
+    @Transactional
     public void insertUserInfo(UserInfo userInfo) {
         try {
             StringBuilder sb = new StringBuilder();
